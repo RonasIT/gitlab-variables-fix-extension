@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "GitLab CI/CD Variables Fix",
+  "version": "0.0.1",
+
+  "icons": {
+    "128": "styles/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*/-/settings/ci_cd" ],
+      "js": [ "js/common.js" ]
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_title": "GitLab CI/CD Variables Fix",
+    "default_icon": "styles/logo.png",
+    "default_popup": "popup.html"
+  }
+}

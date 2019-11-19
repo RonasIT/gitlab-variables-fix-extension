@@ -1,0 +1,4 @@
+.popup-body {width: 180px; height: 100px;}
+h4 {text-align: center; margin-bottom: 40px;}
+.notification {position: absolute; color: green; top: 40px; left: 60px; visibility: hidden;}
+.form-row {margin-left: 20px;}

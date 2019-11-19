@@ -1,0 +1,16 @@
+{
+    "name": "gitlab-variables-fix-extension",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Chrome Extension for fixing Variables section in GitLab",
+    "repository": "https://github.com/RonasIT/gitlab-variables-fix-extension",
+    "license": "MIT",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
+        "gulp-uglify-es": "^2.0.0",
+        "gulp-using": "^0.1.1",
+        "gulp-util": "^3.0.8"
+    },
+    "dependencies": {}
+}
